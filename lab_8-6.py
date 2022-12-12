@@ -1,13 +1,13 @@
 #author: RED 12/7/22
 
-num = int(input("Input a number "))
+num = int(input("Input a number ")) #input statement for number
 
-def factorial(num):
+def factorial(num): #making function
     i = 1
     f = 1
-    while num >= i:
+    while num >= i: #making loop
         f = f * i
         i += 1
-    return f
+    return f #return the factorial
 
 print(factorial(num))
